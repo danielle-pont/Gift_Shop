@@ -50,8 +50,8 @@ export default {
     },
     {
       id: 7,
-      name: 'Zeffer Red Apple Cider',
-      description: 'Zeffer',
+      name: '',
+      description: '',
       price: '',
       brand: '',
       category: '',
