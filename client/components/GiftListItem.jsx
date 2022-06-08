@@ -1,10 +1,10 @@
 import React from 'react'
 
-function BeerListItem(props) {
+function GiftListItem(props) {
   // eslint-disable-next-line no-unused-vars
-  const { id, name, brewery, country, abv } = props.beer
+  const { id, name, brewery, country, abv } = props.gift
   return (
-    <div className="beer">
+    <div className="gift">
       <p className="name">{name}</p>
       <p className="description">{brewery}</p>
       <p>
@@ -16,4 +16,4 @@ function BeerListItem(props) {
   )
 }
 
-export default BeerListItem
+export default GiftListItem
