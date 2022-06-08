@@ -9,7 +9,7 @@ function Cart() {
       <table>
         <thead>
           <tr>
-            <td>Beer</td>
+            <td>Gift</td>
             <td>Quantity</td>
             <td>Remove</td>
           </tr>

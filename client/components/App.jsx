@@ -1,13 +1,13 @@
 import React from 'react'
 
 import Header from './Header'
-import BeerList from './BeerList'
+import GiftList from './GiftList'
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <BeerList />
+      <GiftList />
     </div>
   )
 }
