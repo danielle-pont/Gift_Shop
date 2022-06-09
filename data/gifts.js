@@ -10,11 +10,12 @@ export default {
     },
     {
       id: 2,
-      name: '',
-      description: '',
-      price: '',
-      brand: '',
-      category: '',
+      name: 'Empire State Building Musical Key Chain',
+      description:
+        'An Empire State Building key chain that plays the 1959 hit, "Sea of Love" by The Twilights and Phil Phillips. Now with detachable canopener.',
+      price: '$0.40',
+      brand: 'Anko',
+      category: 'Key Chains',
     },
     {
       id: 3,
