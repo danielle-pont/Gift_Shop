@@ -1,5 +1,9 @@
-export const actionCreatorName = () => {
+import { NAVIGATE } from './actionList'
+
+// action creators
+export const navigate = (activePage) => {
   return {
-    type: 'ACTION_TYPE',
+    type: NAVIGATE,
+    payload: activePage,
   }
 }
