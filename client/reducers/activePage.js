@@ -12,3 +12,5 @@ function activeReducer(state = initState, action) {
       return state
   }
 }
+
+export default activeReducer
