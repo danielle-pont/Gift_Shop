@@ -4,4 +4,11 @@ import { NAVIGATE } from '../actions/actionList'
 
 const initState = 'home'
 
-function activeReducer(state = initState, action) {}
+function activeReducer(state = initState, action) {
+  switch (action.type) {
+    case NAVIGATE:
+      return action.payload
+    default:
+      return state
+  }
+}
